@@ -11,7 +11,7 @@ if __name__ == '__main__':
     dog = Dog('Robi','male',2,True)
     dog2 = Dog('Zuzia','female', 4, False)
 
-    box = Box(1)
+    box = Box(1, 5)
     box.add_dog(dog)
     box.add_dog(dog2)
     print('in box {} there are {}'.format(box.id, box.dogs))
